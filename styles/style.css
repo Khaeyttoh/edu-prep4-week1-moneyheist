@@ -1,0 +1,83 @@
+header{
+background-color: tomato;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+height: 100px;
+display:flex;
+}
+
+footer{   
+background-color: black;
+text-align: center;
+color: white;
+height: 100px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.navbar{
+   display:flex;
+   justify-content: space-between;
+}
+
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    font-size: 18pt;
+}
+a:hover{
+color: gold;
+}
+#logo{
+    display: flex;
+    justify-content: left;
+    
+}
+
+.logo{
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+.groupname{
+    font-weight:bold;
+    font-size: 18pt;
+}
+.content{
+    text-align: center;
+    height: 500px;
+    padding-top: 20px;
+}
+.portfolio{
+    height:300px;
+    display: flex;
+    height: 300px;
+}
+.sharon{
+    flex-grow: 1;
+    color: black;
+}
+
+.sharonpic{
+    background-color: green;
+    flex-grow: 3;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+h1{
+    text-align: left;
+    font-weight: bold;
+}
+#welcome-section{
+    text-align:left;
+}
+.pauline{
+    
+}
