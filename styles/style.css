@@ -43,7 +43,7 @@ color: gold;
 
 .logo{
     font-weight: bold;
-    margin-left: 20px;
+    
     
 }
 .groupname{
@@ -52,32 +52,32 @@ color: gold;
 }
 .content{
     text-align: center;
-    height: 500px;
+    height: 100vh;
     padding-top: 20px;
+    background-image:url("/images/mh.jpg");
 }
 .portfolio{
     height:300px;
     display: flex;
     height: 300px;
+    height: 100vh;
+
 }
-.sharon{
+.pauline{
     flex-grow: 1;
     color: black;
 }
-
-.sharonpic{
-    background-color: green;
-    flex-grow: 3;
-    padding-top: 40px;
-    padding-left: 40px;
+#a1,#a2{
+    font-size:medium;
 }
+#a2{
+    margin-left: 20px;
+}
+
 h1{
     text-align: left;
     font-weight: bold;
 }
 #welcome-section{
     text-align:left;
-}
-.pauline{
-    
 }
