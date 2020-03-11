@@ -48,25 +48,40 @@ color: gold;
 }
 .groupname{
     font-weight:bold;
-    font-size: 18pt;
+    font-size: xx-large;
 }
 .content{
-    text-align: center;
+    text-align: left;
     height: 100vh;
     padding-top: 20px;
     background-image:url("/images/mh.jpg");
+    font-size:xx-large;
 }
 .portfolio{
-    height:300px;
+    
     display: flex;
-    height: 300px;
     height: 100vh;
+    background-image:url("/images/lion.jpg");
+    color:black;
+    font-family:sans-serif;
 
+    
+    
 }
+
+
 .pauline{
-    flex-grow: 1;
-    color: black;
-}
+   font-size: 18pt;
+   height: 100vh;
+   float: right;
+   /* display: flex;
+   align-content: flex-start;
+     */
+}  
+
+
+    
+
 #a1,#a2{
     font-size:medium;
 }
@@ -78,6 +93,4 @@ h1{
     text-align: left;
     font-weight: bold;
 }
-#welcome-section{
-    text-align:left;
-}
+
