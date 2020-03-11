@@ -1,3 +1,8 @@
+#all{
+    background-image:("https://images.app.goo.gl/7vPkr76KLXZeN7hN6");
+    background-size: auto;
+}
+
 header{
 background-color: tomato;
 align-items: center;
@@ -43,7 +48,7 @@ color: gold;
 
 .logo{
     font-weight: bold;
-    margin-left: 20px;
+    
     
 }
 .groupname{
@@ -52,25 +57,21 @@ color: gold;
 }
 .content{
     text-align: center;
-    height: 500px;
+    height: 100vh;
     padding-top: 20px;
+    background-image:url("/images/mh.jpg");
 }
 .portfolio{
     height:300px;
     display: flex;
-    height: 300px;
+    height: 100vh;
 }
-.sharon{
+.pauline{
     flex-grow: 1;
     color: black;
 }
 
-.sharonpic{
-    background-color: green;
-    flex-grow: 3;
-    padding-top: 40px;
-    padding-left: 40px;
-}
+
 h1{
     text-align: left;
     font-weight: bold;
@@ -78,6 +79,16 @@ h1{
 #welcome-section{
     text-align:left;
 }
-.pauline{
+#image{
     
+    width: 300px;
+    height:300px;
+
+}
+#pic{
+    width: 150px;
+    height:90px;
+}
+#out{
+    max-width: 100%;
 }

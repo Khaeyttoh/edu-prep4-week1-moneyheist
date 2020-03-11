@@ -1,0 +1,79 @@
+#whole{
+    background-image: /*linear-gradient(to bottom, rgba(132, 241, 147, 0.156), rgba(8, 58, 19, 0.511)), */
+    url("/images/mh.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    /* background-color:red; */
+    color: rgba(53, 100, 71, 0.788);
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100px;
+    display:flex;
+    }
+.navbar{
+    display:flex;
+    justify-content: space-between;
+ }
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+.anchor{
+    color: rgba(53, 100, 71, 0.788);
+    font-weight:lighter;
+    font-size: 18pt;
+}
+.point{
+    color:silver;
+}
+a:hover{
+color: gold;
+}
+#logo{
+        display: flex;
+        justify-content: left;
+    }
+.logo{
+        font-weight: bold;
+    }
+#zipi{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+    color: silver;
+}
+#pic{
+        width: 150px;
+        height:90px;
+    }
+#image{    
+        width: 200px;
+        height:300px;  
+          
+    }
+footer{   
+        background-color: black;
+        text-align: center;
+        color: white;
+        height: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+#footer{
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        }
+.portfolio{
+            height:300px;
+            display: flex;
+            
+        }
