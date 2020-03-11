@@ -15,11 +15,13 @@ height: 100px;
 padding-top: 20px;
 padding-bottom: 20px;
 }
+
 #footer{
     display: flex;
     justify-content: space-around;
     align-items:center;
 }
+
 .navbar{
    display:flex;
    justify-content: space-between;
@@ -32,9 +34,11 @@ a{
     font-weight:bold;
     font-size: 18pt;
 }
+
 a:hover{
 color: gold;
 }
+
 #logo{
     display: flex;
     justify-content: left;
@@ -43,7 +47,6 @@ color: gold;
 
 .logo{
     font-weight: bold;
-    
     
 }
 .groupname{
@@ -58,17 +61,13 @@ color: gold;
     font-size:xx-large;
 }
 .portfolio{
-    
     display: flex;
     height: 100vh;
     background-image:url("/images/lion.jpg");
     color:black;
     font-family:sans-serif;
 
-    
-    
 }
-
 
 .pauline{
    font-size: 18pt;
@@ -78,9 +77,6 @@ color: gold;
    align-content: flex-start;
      */
 }  
-
-
-    
 
 #a1,#a2{
     font-size:medium;
@@ -94,3 +90,11 @@ h1{
     font-weight: bold;
 }
 
+body{
+    background-color:aqua;
+}
+@media screen and (max-height: 150vh){
+    body{
+        background-color:white;
+    }
+}
