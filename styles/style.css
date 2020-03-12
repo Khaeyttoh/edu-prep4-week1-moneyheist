@@ -30,7 +30,7 @@ padding-bottom: 20px;
 a{
     margin-left: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight:bold;
     font-size: 18pt;
 }
@@ -47,7 +47,7 @@ color: gold;
 
 .logo{
     font-weight: bold;
-    
+    font-size: x-large;
 }
 .groupname{
     font-weight:bold;
@@ -63,9 +63,11 @@ color: gold;
 .portfolio{
     display: flex;
     height: 100vh;
-    background-image:url("/images/lion.jpg");
+    background-image:url("/images/silver\ surfer.jpg");
     color:black;
     font-family:sans-serif;
+    font-size: medium;
+    
 
 }
 
