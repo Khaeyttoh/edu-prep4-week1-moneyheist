@@ -1,12 +1,16 @@
 header{
-background-color: tomato;
+background-color:#021831;
 align-items: center;
 text-align: center;
 justify-content: space-between;
 height: 100px;
 display:flex;
 }
+header-navbar{
+    background-color: red;
 
+}
+/*styles for the footer*/
 footer{   
 background-color: black;
 text-align: center;
@@ -25,6 +29,7 @@ padding-bottom: 20px;
 .navbar{
    display:flex;
    justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 a{
@@ -48,27 +53,30 @@ color: gold;
 .logo{
     font-weight: bold;
     font-size: x-large;
+    color: white;
 }
 .groupname{
     font-weight:bold;
     font-size: xx-large;
 }
 .content{
-    text-align: left;
+    text-align: center;
     height: 100vh;
-    padding-top: 20px;
+    padding-top: 150px;
     background-image:url("/images/mh.jpg");
-    font-size:xx-large;
+    font-size:xx-large; 
+    color: whitesmoke;
 }
-.portfolio{
+.pauline-portfolio{
     display: flex;
     height: 100vh;
     background-image:url("/images/silver\ surfer.jpg");
     color:black;
     font-family:sans-serif;
+    font-weight: 700;
     font-size: medium;
+    text-align: center;
     
-
 }
 
 .pauline{
@@ -95,8 +103,27 @@ h1{
 body{
     background-color:aqua;
 }
-@media screen and (max-height: 150vh){
+@media screen and (max-width: 800px){
     body{
-        background-color:white;
+        background-color: red;
     }
+}
+#profile{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: -50px;
+    margin-right: 500px;
+    
+}
+ 
+#pauline-welcome-section{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.me{
+    font-size: x-large;
+    color: whitesmoke
 }
