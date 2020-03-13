@@ -1,0 +1,131 @@
+header{
+background-color:#021831;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+height: 100px;
+display:flex;
+}
+header-navbar{
+    background-color: red;
+
+}
+/*styles for the footer*/
+footer{   
+background-color: black;
+text-align: center;
+color: white;
+height: 100px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+/*styles for footer*/
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.navbar{
+   display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    font-size: 18pt;
+}
+
+a:hover{
+color: gold;
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+    
+}
+
+.logo{
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+.groupname{
+    font-weight:bold;
+    font-size: xx-large;
+}
+
+.content{
+    text-align: center;
+    height: 100vh;
+    padding-top: 150px;
+    background-image:url("/images/mh.jpg");
+    font-size:xx-large; 
+    color: whitesmoke;
+}
+/* styles for pauline-portfolio*/
+.pauline-portfolio{
+    display: flex;
+    height: 100vh;
+    background-image:url("/images/silver\ surfer.jpg");
+    color:black;
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+    
+}
+
+.pauline{
+   font-size: 18pt;
+   height: 100vh;
+   float: right;
+   /* display: flex;
+   align-content: flex-start;
+     */
+}  
+
+#a1,#a2{
+    font-size:medium;
+}
+#a2{
+    margin-left: 20px;
+}
+
+h1{
+    text-align: left;
+    font-weight: bold;
+}
+/* media queary*/
+body{
+    background-color:aqua;
+}
+@media screen and (max-width: 800px){
+    body{
+        background-color: red;
+    }
+}
+#profile{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: -50px;
+    margin-right: 500px;
+    
+}
+ 
+#pauline-welcome-section{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.me{
+    font-size: x-large;
+    color: whitesmoke
+}

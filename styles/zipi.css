@@ -1,7 +1,8 @@
 #whole{
-    background-image: url("/images/tri.png");
+    background-color: rgb(201, 100, 100);
+    background-image: url("/images/mine.png");
     background-repeat: no-repeat;
-    font-family: 'Roboto','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'PT Serif', serif;
     top: 30px;
     position:relative;
     background-size: auto 100%;
@@ -9,7 +10,7 @@
     position: center -30px;
     background-attachment: fixed;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     body {
       background-color: lightblue;
     }
@@ -18,7 +19,7 @@
       height: 500px;
   }
 header{
-    color: rgba(53, 100, 71, 0.788);
+    color:#e9e7e8;
     align-items: center;
     text-align: center;
     justify-content: space-between;
@@ -30,14 +31,15 @@ header{
     justify-content: space-between;
  }
 a{
-    margin-left: 20px;
+    
     text-decoration: none;
     
 }
 .anchor{
-    color: rgba(53, 100, 71, 0.788);
+    color:#e9e7e8;
     font-weight:lighter;
     font-size: 14pt;
+    margin-left: 20px;
 }
 .point{
     color:silver;
@@ -79,14 +81,15 @@ footer{
         background-color: black;
         text-align: center;
         color: white;
-        height: 100px;
+        height: 50px;
         padding-top: 20px;
         padding-bottom: 20px;
         }
 #footer{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items:center;
+
         }
 .portfolio{
             height:300px;
@@ -98,32 +101,47 @@ footer{
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
+    /* color: #f1f1f1; Grey text */
     width: 100%; /* Full width */
-    padding: 20px; /* Some padding */
+    /* padding: 20px; Some padding */
+    border-color: black;
 }
 #welcome-section{
     border-radius: 20px;
-    width: 700px;
-    height: 500px;
-    margin-left: -350px;
-    border-color: black ;
+    width: 500px;
+    height: 620px;
+    margin-left: 50px;
+    border: thin solid;
+    padding: 20px;
 }
 .media{
     height:50px;
     width:50px;
+    margin-left: 100px;
+    margin-top: -10px;
 }
 #me{
     border-radius: 20px;
     margin-right: auto;
     /* padding: auto; */
 }
-.twit{
+/* #twit{
     width: 80px;
     height: 80px;
-    margin-bottom: -15px;
-    }
+    /* margin-bottom: -15px; }*/
+    
     #left{
-        margin-left: -30px;
+        margin-left: 500px;
+        
     }
+    #contact{
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+    /* #fb{
+        padding-left: 80px;
+    }
+    #insta{
+        padding-left: 80x;
+    } */
 
