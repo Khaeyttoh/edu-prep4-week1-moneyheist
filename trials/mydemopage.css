@@ -1,0 +1,25 @@
+p{
+    color: grey;
+}
+header{
+ font-style: oblique;
+ font-family: monospace;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+color: rgba(4,4,25,0.5);
+
+}
+
+
+body{
+    font-family: 'Viaoda Libre', cursive;
+background-image: img src= "https://img.freepik.com/vector-gratis/forma-hexagonal-patron-gris-negro-fondo-rojo-claro_81724-25.jpg?size=626&ext=jpg" ;
+/*font-family: 'Baloo Chettan 2', cursive;*/
+font-size: "60px";
+
+
+
+
+
+}

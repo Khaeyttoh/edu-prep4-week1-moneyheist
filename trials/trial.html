@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type ="text/css" href="/styles/style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href= "mh.jpg.ico"/>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+ body{
+
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 0px;
+  margin-left: 0px; 
+  background-attachment: scroll;
+
+ }
+ 
+
+ p{
+font-family: monospace;
+ color:blanchedalmond;
+ }
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+ html {
+  font-family: cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+  background-color: #04032c;
+  color: #5c0a0a;
+  padding: 15px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 0;
+  margin-bottom: 7px;
+  background-color :#14022c46;
+  color: rgb(4,4,45);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #14022c46;
+}
+
+.aside {
+  background-color: #14022c46;
+  padding: 15px;
+  color:rgb(4,4,45);
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #14022c46;
+  color: rgb(4,4,45);
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.back{
+background-color: black;
+}
+
+</style>
+</head>
+<body style =background-color:black; >
+
+<div class="header">
+  <h1>Creations</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>The Flight</li>
+      <li>The City</li>
+      <li>The Island</li>
+      <li>The Food</li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>Origin</h1>
+    <p>Money Heist Page</p>
+    <img src="https://files.slack.com/files-pri/TUCMNMYKD-FV2SB69FF/logo.png" width="100px" height="100px">
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>Chania is a city on the island of Crete.</p>
+      <h2>Where?</h2>
+      <p>Crete is a Greek island in the Mediterranean Sea.</p>
+      <h2>How?</h2>
+      <p>You can reach Chania airport from all over Europe.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer"></div>
+<ul>
+    <li><a href="/html/default.asp" target="_blank">Page 1</a></li>
+    <li><a href="/css/default.asp" target="_blank">Page 2</a></li>
+    <li><a href="/js/default.asp" target="_blank">Page 3</a></li>
+  </ul>
+  
+
+  <p>Scroll Up</p>
+</div>
+
+
+
+</body>
+</html>
