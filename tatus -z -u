@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zipporah's</title>
+           
+    </head>
+    <body>
+        <div class="navbar">          
+            <div id="sharon">
+
+            </div>
+
+            <div id="zipporah" style="display:none;">
+
+            </div>
+
+            <div id="pauline" style="display:none;">
+
+            </div>
+
+            <div id="anita" style="display:none;">
+
+            </div>
+
+            <div id="angela" style="display:none;">
+
+            </div>
+
+        </div>
+        <div>
+            <button class="press" onclick="openNavbar('sharon')">Sharon</button>
+            <button class="press" onclick="openNavbar('zipporah')">Zipporah</button>
+            <button class="press" onclick="openNavbar('pauline')">Pauline</button>
+            <button class="press" onclick="openNavbar('anita')">Anita</button>
+            <button class="press" onclick="openNavbar('angela')">Angella</button>
+
+        </div>
+        <h1>Welcome, prepare to be blown away!!</h1>
+    </body>
+</html>

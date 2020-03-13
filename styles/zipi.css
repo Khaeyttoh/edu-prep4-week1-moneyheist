@@ -1,0 +1,147 @@
+#whole{
+    background-color: rgb(201, 100, 100);
+    background-image: url("/images/mine.png");
+    background-repeat: no-repeat;
+    font-family: 'PT Serif', serif;
+    top: 30px;
+    position:relative;
+    background-size: auto 100%;
+    background-size: 100% auto;
+    position: center -30px;
+    background-attachment: fixed;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  view-port{
+      height: 500px;
+  }
+header{
+    color:#e9e7e8;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100px;
+    display:flex;
+    }
+.navbar{
+    display:flex;
+    justify-content: space-between;
+ }
+a{
+    
+    text-decoration: none;
+    
+}
+.anchor{
+    color:#e9e7e8;
+    font-weight:lighter;
+    font-size: 14pt;
+    margin-left: 20px;
+}
+.point{
+    color:silver;
+}
+a:hover{
+color: gold;
+}
+#logo{
+        display: flex;
+        justify-content: left;
+    }
+.logo{
+        font-weight: bold;
+    }
+#zipi{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+    color:white;
+}
+#pic{
+        width: 150px;
+        height:90px;
+    }
+#image{    
+        width: 200px;
+        height:200px;
+        border-radius:50px;
+        opacity:0.5;              
+        }
+        #image:hover{
+            opacity: 1;
+        }
+footer{   
+        background-color: black;
+        text-align: center;
+        color: white;
+        height: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+#footer{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+        }
+.portfolio{
+            height:300px;
+            display: flex;
+            
+        }
+.zipi .welcome-section{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    /* color: #f1f1f1; Grey text */
+    width: 100%; /* Full width */
+    /* padding: 20px; Some padding */
+    border-color: black;
+}
+#welcome-section{
+    border-radius: 20px;
+    width: 500px;
+    height: 620px;
+    margin-left: 50px;
+    border: thin solid;
+    padding: 20px;
+}
+.media{
+    height:50px;
+    width:50px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+#me{
+    border-radius: 20px;
+    margin-right: auto;
+    /* padding: auto; */
+}
+/* #twit{
+    width: 80px;
+    height: 80px;
+    /* margin-bottom: -15px; }*/
+    
+    #left{
+        margin-left: 500px;
+        
+    }
+    #contact{
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+    /* #fb{
+        padding-left: 80px;
+    }
+    #insta{
+        padding-left: 80x;
+    } */
+
