@@ -1,5 +1,9 @@
 header{
+<<<<<<< HEAD
 background-color: #9f041e;
+=======
+background-color:#021831;
+>>>>>>> 2c7b6af249688e7b2b56677ca291bd2ba5cdd7c8
 align-items: center;
 text-align: center;
 justify-content: space-between;
@@ -11,7 +15,11 @@ padding-bottom: 20px;
 font-family: 'Roboto', sans-serif;
 
 }
+header-navbar{
+    background-color: red;
 
+}
+/*styles for the footer*/
 footer{   
 background-color: black;
 text-align: center;
@@ -21,27 +29,32 @@ padding-top: 20px;
 padding-bottom: 20px;
 font-family: 'Roboto', sans-serif;
 }
+
 #footer{
     display: flex;
     justify-content: space-around;
     align-items:center;
 }
+
 .navbar{
    display:flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 a{
     margin-left: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight:bold;
     font-size: 18pt;
 }
+
 a:hover{
 color: white;
 }
+
 #logo{
     display: flex;
     justify-content: left;
@@ -50,14 +63,20 @@ color: white;
 
 .logo{
     font-weight: bold;
+<<<<<<< HEAD
     
     
+=======
+    font-size: x-large;
+    color: white;
+>>>>>>> 2c7b6af249688e7b2b56677ca291bd2ba5cdd7c8
 }
 .groupname{
     font-weight:bold;
-    font-size: 18pt;
+    font-size: xx-large;
 }
 .content{
+<<<<<<< HEAD
     color: goldenrod;
     text-align: left;
     height: 100vh;
@@ -134,11 +153,48 @@ color: white;
     color: black;
     font-style: oblique;
     text-align: center;
+=======
+    text-align: center;
+    height: 100vh;
+    padding-top: 150px;
+    background-image:url("/images/mh.jpg");
+    font-size:xx-large; 
+    color: whitesmoke;
 }
+.pauline-portfolio{
+    display: flex;
+    height: 100vh;
+    background-image:url("/images/silver\ surfer.jpg");
+    color:black;
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+    
+}
+
+.pauline{
+   font-size: 18pt;
+   height: 100vh;
+   float: right;
+   /* display: flex;
+   align-content: flex-start;
+     */
+}  
+
+#a1,#a2{
+    font-size:medium;
+>>>>>>> 2c7b6af249688e7b2b56677ca291bd2ba5cdd7c8
+}
+#a2{
+    margin-left: 20px;
+}
+
 h1{
     text-align: left;
     font-weight: bold;
 }
+<<<<<<< HEAD
 .section2 h1{
     text-align: center;
 }
@@ -171,3 +227,33 @@ body{
     }    
 }
 
+=======
+
+body{
+    background-color:aqua;
+}
+@media screen and (max-width: 800px){
+    body{
+        background-color: red;
+    }
+}
+#profile{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: -50px;
+    margin-right: 500px;
+    
+}
+ 
+#pauline-welcome-section{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.me{
+    font-size: x-large;
+    color: whitesmoke
+}
+>>>>>>> 2c7b6af249688e7b2b56677ca291bd2ba5cdd7c8
